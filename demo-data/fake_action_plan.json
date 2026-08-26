@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "actionId": "synthetic-action-001",
+  "operation": "message.commit",
+  "candidateKey": "synthetic:alpha",
+  "jobRef": "synthetic-ai-support-frontend",
+  "payload": {
+    "messageFile": "synthetic-message.txt",
+    "messageHash": "sha256:synthetic-message-hash"
+  },
+  "candidateLocator": {
+    "platform": "boss",
+    "displayedName": "候选人甲（虚构）",
+    "jobRef": "synthetic-ai-support-frontend",
+    "listContextHash": "sha256:synthetic-list-context",
+    "capturedAt": "2026-08-26T00:00:00.000Z",
+    "expiresAt": "2026-08-26T00:30:00.000Z"
+  },
+  "approval": { "required": true, "status": "approved", "scope": "single_action" },
+  "idempotencyKey": "synthetic:message.commit:alpha:hash",
+  "resultPolicy": "verify_or_result_unknown"
+}

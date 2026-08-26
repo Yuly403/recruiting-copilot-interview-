@@ -1,0 +1,45 @@
+{
+  "name": "recruiting-gateway",
+  "version": "0.1.0",
+  "description": "招聘副驾驶网关（面试技术验证脱敏版）",
+  "type": "module",
+  "main": "./dist/gateway/index.js",
+  "bin": {
+    "recruitctl": "./dist/cli/index.js",
+    "boss-rpa-runner": "./dist/rpa-runner/cli.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true,
+  "keywords": [
+    "boss",
+    "recruiting",
+    "gateway",
+    "zhipin",
+    "hr",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vitest/coverage-v8": "^2.1.9",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+node_modules/
+dist/
+coverage/
+runtime/
+
+# Credentials and local environment overrides
+.env
+.env.*
+!/.env.example
+
+# Logs and transient local data
+*.log
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+
+# Browser profiles, cookies and login state
+Cookies
+cookies/
+Login Data
+Local State
+User Data/
+browser-profile/
+browser-profiles/
+profiles/
+sessions/
+screenshots/
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system files
+.DS_Store
+Thumbs.db

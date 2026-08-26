@@ -1,0 +1,19 @@
+[
+  {
+    "candidateKey": "synthetic:alpha",
+    "displayName": "候选人甲（虚构）",
+    "source": "synthetic-boss-read",
+    "currentCompany": "星河软件（虚构）",
+    "evidence": ["3 年 React + TypeScript", "交付过后台组件库"],
+    "screening": { "recommendation": "review", "reason": "满足硬条件；AI 产品经验待核验" }
+  },
+  {
+    "candidateKey": "synthetic:beta",
+    "displayName": "候选人乙（虚构）",
+    "source": "synthetic-ledger",
+    "currentCompany": "云帆科技（虚构）",
+    "evidence": ["5 年前端经验", "缺少 TypeScript 项目证据"],
+    "screening": { "recommendation": "hold", "reason": "需人工补证，不自动淘汰" }
+  }
+]
+
