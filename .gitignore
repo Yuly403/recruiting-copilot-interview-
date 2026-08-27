@@ -1,7 +1,10 @@
 node_modules/
 dist/
 coverage/
-runtime/
+# Generated runtime state only. Keep recruiting-gateway/src/runtime/ tracked:
+# it contains ActionStore, ApprovalStore, path and execution-ticket source code.
+/runtime/
+/recruiting-gateway/runtime/
 
 # Credentials and local environment overrides
 .env
