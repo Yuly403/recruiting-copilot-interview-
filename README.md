@@ -127,7 +127,7 @@ npm test
 
 ## 13. 当前真实成熟度
 
-这是 **offline safety loop / synthetic E2E / engineering prototype**：7 个 Skills 已存在；Gateway 与 synthetic Runner 已由自动化测试覆盖。真实 BOSS 账号的端到端生产验证未完成。51job、猎聘没有同等级的写入 Gateway / Runner，不应表述为三平台全自动运行。当前 RPA Runner 源码在 `recruiting-gateway/src/rpa-runner/`，但未在真实 BOSS 页面完成联调。
+这是 **offline safety loop / synthetic E2E / engineering prototype**：7 个 Skills 已存在；Gateway 与 synthetic Runner 已由自动化测试覆盖。真
 
 ## 14. 已知限制
 
